@@ -51,11 +51,11 @@ class ProjectManager extends Instructor {
 		super(ProjectManagerAttributes);
 		this.gradClassName = ProjectManagerAttributes.gradClassName;
 		this.favInstructor = ProjectManagerAttributes.favInstructor;
-    }
-    standUp(name,channel){
-        return `{name} announces to {channel}, @channel standy times!​​​​​`
-    }
-    debugsCode(name,subjet){
-        return `{name} debugs {student.name}'s code on {subject}`;
-    }
+	}
+	standUp(name, channel) {
+		return `${name} announces to ${channel}, @channel standy times!​​​​​`;
+	}
+	debugsCode(name, studentname, subject) {
+		return `${name} debugs ${studentname}'s code on ${subject}`;
+	}
 }
